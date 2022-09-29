@@ -34,6 +34,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.rodape__icone {
+    color: #0F90A1;
+    transform: scale(1.6);
+}
 
 .rodape__endereco {
     text-align: right;

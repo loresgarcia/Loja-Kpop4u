@@ -27,8 +27,8 @@
 }
 
 .cabecalho__perfil, .cabecalho__carrinho {
-    width: 32px;
-    height: 32px;
+    transform: scale(1.6);
+    color: #f2f2f2;
     cursor: pointer;
 }
 

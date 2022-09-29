@@ -1,4 +1,5 @@
 import "./Rodape.css";
+import { Twitter, Instagram, Facebook, YouTube } from "@mui/icons-material";
 
 export default function Rodape() {
   return (
@@ -15,10 +16,10 @@ export default function Rodape() {
           <p>Sac: (XX) XXXX-XXXX</p>
           <p>Email: sac@kpop4u.com.br</p>
           <div className="rodape__social">
-            <img src="/imagens/twitter.png" alt="" />
-            <img src="/imagens/instagram.png" alt="" />
-            <img src="/imagens/facebook.png" alt="" />
-            <img src="/imagens/tik-tok.png" alt="" />
+          <Twitter className="rodape__icone" />
+          <Instagram className="rodape__icone" />
+          <Facebook className="rodape__icone" />
+          <YouTube className="rodape__icone" />
           </div>
         </div>
         <div className="rodape__endereco">
