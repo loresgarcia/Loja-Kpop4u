@@ -33,6 +33,12 @@ export default function MaisVendidos() {
             preco: "40,00",
             imagem: "/imagens/cherrybullet.jpg",
         },
+        {
+            grupo: "Apink",
+            album: "HORN",
+            preco: "65,00",
+            imagem: "/imagens/apink.png",
+        },
     ]
     return (
         <div className="mais-vendidos">
